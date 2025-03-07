@@ -10,7 +10,7 @@ int main()
 	for (int i = 0; i < R; i++)
 			x[i] = new int[C];
 
-	x[0][1] = 10;
+	x[0][1] = 1121;
 
 	cout << *(*(x + 0) + 1) << endl;
 
